@@ -1,79 +1,111 @@
+@font-face
+{
+    font-family: "Open Sans";
+    src: url(Fonts/Open_Sans/OpenSans-Light.ttf);
+}
 body
 {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family:  "Open Sans",Helvetica, sans-serif;
+    width:100%;
+    height:100%;
 }
-h1
+header
 {   
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    position: relative;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 40, 130);
+    box-shadow: grey 10px 0 40px;
+}
+nav
+{   
+    width:70%;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+.menu
+{  
+    padding:10px;
+}
+.push-flex
+{
+    margin-left: auto;
+}
+nav a:hover
+{
+    background-color: rgb(169 15 41);
+    color: white;
+}
+nav ul
+{   
+    display: flex;
+    list-style-type: none;
     margin: 0;
+}
+nav a
+{   
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+}
+a:visited
+{
+    
+    color: rgb(43, 43, 43);
+}
+.logo
+{   
     font-size: xx-large;
 }
-h1 a
+.top
 {
-    text-decoration: none;
+    position: relative;
+    margin: auto;
 }
-h1 a:hover
+.logo a:hover
 {
+    background-color: transparent;
+    color: rgb(43, 43, 43);
+}
+.top img
+{
+    width:100%;
+    filter: brightness(90%);
+}
+.top-text
+{   
+    position: absolute;
     color:white;
+    bottom: 20%;
+    left: 10%;
+
+    font-size: 1.5vw; 
 }
-.nav-h1
-{ 
-    width: 60%;
+.features
+{   
+    padding-top: 20px;
+    width: 80%;
     margin: auto;
 }
 .features figure img
 {
     width: 300px;
-    border-radius: 20%;
-    border-style: double;
-    border-color: honeydew;
-    box-shadow: grey 0 0 20px;
-}
-.features
-{   
-    display: flex;
-    flex-direction: row;
+    box-shadow: grey 0 0 10px;
 }
 .features figure
 {
     margin: auto;
     width: 300px;
 }
-nav a
-{   
-    width: 100%;
-    height:100%;
-    display: block;
-    margin: 0;
-    text-decoration: none;
-    padding: 10px;
-    text-align: center;
-}
-a:visited
-{
-    color: rgb(255, 255, 255);
-}
-nav a:hover
-{
-    background-color: white;
-    color: rgb(175, 40, 130);
-}
-header
-{   
-    font-size: large;
-    background-color: rgb(175, 40, 130);
-    color: rgb(255, 255, 255);
-    box-shadow: grey 0 0 20px;
-}
-section.features
+.features-images
 {   
     margin: auto;
-    width: 60%;
     padding: 60px;
+    display: flex;
+    flex-direction: row;
 }
 footer
 {   
@@ -81,7 +113,7 @@ footer
     font-size: small;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(175, 40, 130);
+    background-color: rgb(169 15 41);
     text-align: center;
 }
 footer li
@@ -89,15 +121,5 @@ footer li
     display: inline-block;
     padding: 10px;
 }
-nav li
-{  
-    display: inline-block;
-    margin-right: 20px;
-}
-ul
-{   
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
+
 
