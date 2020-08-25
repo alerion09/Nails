@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link   rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+    <link   rel="stylesheet" type="text/css" href="./style.css">
+    <link   rel="stylesheet" type="text/css" href="./home_style.css">
+    <script src="./script.js"></script>
     <title>Nails</title>
 </head>
 <body>
@@ -12,56 +13,79 @@
         <nav>
             <ul>
                 <li class="logo"><a href="index.html">Dorota Nails</a></li>
-                <li class="push-flex menu"><a href="index.html">Home</a></li>
-                <li class="menu"><a href="index.html">Gallery</a></li>
-                <li class="menu"><a href="index.html">Contact</a></li>
-                <li class="menu"><a href="index.html">Log in</a></li>
+                <li class="push-flex menu"><a href="index.html">Strona główna</a></li>
+                <li class="menu"><a href="index.html">Galeria</a></li>
+                <li class="menu" id="offer-button"><a href="offer.html">Oferta</a></li>
+                <li class="menu"><a href="index.html">Kontakt</a></li>
             </ul>
         </nav>
     </header>
-    <section class="top">
-            <img src="img/top.jpg" alt="Red nails">
-            <div class="top-text">
-                <h1>PROFESJONALNY MANICURE</h1>
-                <h3>ZADBAMY O TWOJE PIĘKNO</h3> 
-            </div>
-    </section>
-    <section class="first-section">
-        <figure>
-            <img src="img/first-article.jpg" alt="Woman face and pink nails.">
-        </figure>
-        <article>
-            <h1>Lorem ipsum dolor sit amet consectetur</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quaerat sint eaque error eius magnam at voluptatem ducimus vero esse deserunt? 
-            Autem ea a eius aut facilis tempora placeat sit esse!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Ipsum aspernatur provident molestias sit aliquam dolorem recusandae, blanditiis impedit sunt sed rem. 
-        Aliquam hic ipsam animi! Odio architecto aperiam illo nobis.
-        </p>
-        <p>
+    <div class="main-container">
+        <section class="top">
+                <img src="img/top.jpg" alt="Red nails">
+                <div class="top-text">
+                    <h1>PROFESJONALNY MANICURE</h1>
+                    <h3>ZADBAMY O TWOJE PIĘKNO</h3> 
+                </div>
+        </section>
+        <section class="first-section">
+            <figure>
+                <img src="img/first-article.jpg" alt="Woman face and pink nails.">
+            </figure>
+            <article>
+                <h1>Lorem ipsum dolor sit amet consectetur</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quaerat sint eaque error eius magnam at voluptatem ducimus vero esse deserunt? 
+                Autem ea a eius aut facilis tempora placeat sit esse!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit sequi ex similique architecto vel blanditiis neque enim tempora corporis deleniti dicta, 
-            nobis explicabo quasi iure vitae dolore quo magnam provident.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Magni, soluta? Officiis nemo temporibus dolorum dignissimos voluptates tenetur, 
-            ut reiciendis provident nesciunt aliquid, corrupti iste voluptate, non impedit accusamus! Quis, deserunt.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dicta numquam aspernatur rem ad error aperiam labore! 
-        </p>
-        </article>
-    </section>
-        <div class="second-section">
-            <figure>
-                <img src="img/f1.jpg" alt="Pink nails.">
-            </figure>
-            <figure>
-                <img src="img/f2.jpg" alt="Yellow and orange nails.">
-            </figure>
-            <figure>
-                <img src="img/f3.jpg" alt="Blue nails.">
-            </figure>
-        </div>   
-    </section>
+            Ipsum aspernatur provident molestias sit aliquam dolorem recusandae, blanditiis impedit sunt sed rem. 
+            Aliquam hic ipsam animi! Odio architecto aperiam illo nobis.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugit sequi ex similique architecto vel blanditiis neque enim tempora corporis deleniti dicta, 
+                nobis explicabo quasi iure vitae dolore quo magnam provident.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Magni, soluta? Officiis nemo temporibus dolorum dignissimos voluptates tenetur, 
+                ut reiciendis provident nesciunt aliquid, corrupti iste voluptate, non impedit accusamus! Quis, deserunt.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dicta numquam aspernatur rem ad error aperiam labore! 
+            </p>
+            </article>
+        </section>
+        <section class="second-section">
+            <h1>Perspiciatis quia ullam voluptate dolor eos ut nam commodi aliquid, corrupti iste voluptate.</h1>
+            <div class="triple-img">
+                <figure>
+                    <img class="sec-sec-first-img" src="img/f1.jpg" alt="Pink nails.">
+                    <figcaption><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.sit amet consectetur adipisicing elit.</p></figcaption>
+                </figure>
+                <figure>
+                    <img class="sec-sec-second-img" src="img/f2.jpg" alt="Yellow and orange nails.">
+                    <figcaption><p>Consectetur, adipisicing elit. distinctio voluptates dicta illo adipisci dignissimos!</p></figcaption>
+                </figure>
+                <figure>
+                    <img class="sec-sec-third-img" src="img/f3.jpg" alt="Blue nails.">
+                    <figcaption><p>Ut, iure unde similique alias corporis autem nam vero! error nulla nemo tempora quae? Magni omnis voluptatem atque.</p></figcaption>
+                </figure>  
+            </div>  
+        </section>
+        <section class="third-section">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro nulla eius sit veritatis repellendus 
+                iste mollitia reprehenderit
+            </h2>    
+            <div class="social-icons-container">
+                <a href="https://facebook.com">
+                    <img class="social-icon" src="./img/facebook.png" alt="Facebook icon.">
+                </a>
+                <a href="https://youtube.com">
+                    <img class="social-icon" src="./img/youtube.png" alt="Youtube icon.">
+                </a>
+                <a href="https://instagram.com">
+                    <img class="social-icon" src="./img/instagram.png" alt="Instagram icon.">
+                </a>
+            </div>
+        </section>
+    </div>
     <footer>
         <ul>
             <li>Address: Lorum ipsum.</li>

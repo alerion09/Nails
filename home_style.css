@@ -1,0 +1,107 @@
+
+.top
+{
+    position: relative;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.top img
+{
+    width:100%;
+    filter: brightness(90%);
+}
+.top-text
+{   
+    position: absolute;
+    color:white;
+    bottom: 20%;
+    left: 10%;
+    font-size: 1.5vw; 
+}
+.first-section
+{   
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.first-section > article
+{
+    padding-left: 40px;
+    font-size: large;
+}
+.first-section > figure 
+{
+    margin:0;
+}
+.first-section > figure >img
+{
+    width: 400px;
+    border: 5px solid;
+    padding: 5px;
+    border-image-source: linear-gradient(45deg, rgb(169, 15, 41), rgb(218, 79, 102));
+    border-image-slice:1;
+}
+.second-section
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.second-section > h1
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.third-section
+{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.triple-img > figure > img
+{   
+    width: 350px;
+    border: 2px solid  rgb(218, 79, 102);
+    padding: 5px;
+    
+}
+.triple-img > figure
+{   margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+}
+.triple-img
+{   
+    display: flex;
+    flex-direction: row;
+} 
+.sec-sec-second-img
+{   
+    border-radius: 50px;
+}
+.sec-sec-first-img
+{
+    border-radius: 15px 100px;
+}    
+.sec-sec-third-img
+{
+    border-radius: 100px 15px;
+}
+.social-icon
+{
+    width: 100px;
+    
+}
+.social-icons-container > a
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+.social-icons-container
+{
+    display: flex;
+    flex-direction: row;
+    padding-top:50px;
+}

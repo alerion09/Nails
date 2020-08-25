@@ -1,0 +1,22 @@
+h1
+{
+    font-size: xx-large;
+}
+.offer_first-section
+{
+    padding-top: 60px;
+    width: 80%;
+    margin: auto;
+}
+.flex 
+{
+    display: flex;
+}
+.margin-bottom
+{
+    margin-bottom: 100px;
+}
+section img
+{
+    width: 600px;
+}
