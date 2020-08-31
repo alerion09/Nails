@@ -1,7 +1,10 @@
 h1
 {
-    font-size: xx-large;
     color: rgb(169, 15, 41);
+}
+article
+{
+    padding-top: 2%;
 }
 .offer_first-section
 {

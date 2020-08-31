@@ -1,11 +1,9 @@
-
 .top
 {
     position: relative;
     margin: auto;
     padding-bottom: 50px;
 }
-
 .top img
 {
     width:100%;
@@ -17,7 +15,14 @@
     color:white;
     bottom: 20%;
     left: 10%;
-    font-size: 1.5vw; 
+}
+.top-text h1
+{
+    font-size: 2.5rem;
+}
+.top-text h2
+{
+    font-size: 1.8rem;
 }
 .first-section
 {   
@@ -29,7 +34,6 @@
 .first-section > article
 {
     padding-left: 40px;
-    font-size: large;
 }
 .first-section > figure 
 {
@@ -68,7 +72,8 @@
     
 }
 .triple-img > figure
-{   margin-right: auto;
+{   
+    margin-right: auto;
     margin-left: auto;
     width: 350px;
 }

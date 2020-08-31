@@ -1,0 +1,37 @@
+.border-box
+{
+    box-sizing: border-box;
+}
+.gallery_container
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(169, 15, 41) dashed 2px;
+    padding: 20px;
+    box-shadow: rgb(231, 231, 231) 0 0 40px 10px;
+}
+.gallery_row
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6px;
+}
+.gallery_column
+{
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 6px;
+}
+.gallery_column img
+{
+    width: 100%;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+.gallery_column img:hover
+{
+    filter: brightness(60%);
+}
