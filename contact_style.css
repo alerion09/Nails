@@ -4,10 +4,9 @@
     margin-right: auto;
     width:80%;
 }
-#map
+.map
 {   
-    margin-top: 8%;
-    margin-bottom: 60px;
+    margin-top: 120px;
     height:500px;
     background: linear-gradient(45deg, rgb(169, 15, 41), rgb(218, 79, 102));
     padding:3px;
@@ -38,4 +37,66 @@
 {
     text-align: center;
 }
+/*RESPONSIVE CSS*/
+@media only screen and (max-width: 1050px)
+{
+    .icon
+    {
+        width:70px;
+    }
+    .map
+    {
+        height:400px;
+        margin-top: 80px;
+    }
+}
+@media (max-width: 750px)
+{   
+    .icon
+    {
+        width:50px;
+    }
+    .map
+    {
+        height:300px;
+        margin-top: 60px;
+    }
+}
+@media (max-width: 650px)
+{   
+    .contact_icons-row
+    {   
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact_icons-column
+    {
+        width: 42%;
+        max-width: 42%;
+    }
+    .map
+    {
+        height:250px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:400px)
+{
+    .contact_icons-row
+    {   
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact_icons-column
+    {
+        width: 42%;
+        max-width: 42%;
+    }
+    .map
+    {
+        height:200px;
+        margin-top: 40px;
+    }
+}
+
 

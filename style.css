@@ -15,8 +15,11 @@ body
 :-webkit-any(article,aside,nav,section,div) h1 {
     font-size: 2rem;
 }
-:-webkit-any(article,aside,nav,section) h2 {
+:-webkit-any(article,aside,nav,section,div) h2 {
     font-size: 1.4rem;
+}
+:-webkit-any(article,aside,nav,section,div) p {
+    font-size: 1rem;
 }
 header
 {   
@@ -24,7 +27,6 @@ header
     background-color: rgb(255, 255, 255);
     color: rgb(175, 40, 130);
     box-shadow: grey 0 0 20px 2px;
-    font-size: 1.2rem;
 }
 nav
 {   
@@ -39,6 +41,7 @@ section
 .menu
 {  
     padding:10px;
+    font-size: 1.2rem;
 }
 nav a:hover
 {
@@ -90,4 +93,64 @@ footer li
 {   
     display: inline-block;
     padding: 10px;
+}
+/*RESPONSIVE CSS*/
+@media (max-width: 1050px)
+{
+    :-webkit-any(article,aside,nav,section,div) h1 
+    {
+        font-size: 1.7rem;
+    }
+    :-webkit-any(article,aside,nav,section) h2 
+    {
+        font-size: 1.2rem;
+    }
+    :-webkit-any(article,aside,nav,section,div) p 
+    {
+        font-size: 0.8rem;
+    }
+    .logo
+    {   
+        font-size: 1.5rem;
+    }
+    .menu
+    {
+        font-size: 0.9rem;
+    }
+    nav
+    {   
+        width:80%;
+    }
+    section
+    {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 750px)
+{
+    :-webkit-any(article,aside,nav,section,div) h1 
+    {
+        font-size: 1.4rem;
+    }
+    :-webkit-any(article,aside,nav,section) h2 
+    {
+        font-size: 1rem;
+    }
+    :-webkit-any(article,aside,nav,section,div) p 
+    {
+        font-size: 0.7rem;
+    }
+    .logo
+    {   
+        font-size: 1.2rem;
+    }
+    .menu
+    {
+        font-size: 0.7rem;
+    }
+    section
+    {
+        margin-bottom: 50px;
+    }
 }
