@@ -1,8 +1,8 @@
 .top
 {
     position: relative;
-    margin: auto;
-    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .top img
 {
@@ -26,10 +26,10 @@
 }
 .first-section
 {   
-    padding-top: 20px;
     width: 80%;
-    margin: auto;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 .first-section > article
 {
@@ -81,6 +81,7 @@
 {   
     display: flex;
     flex-direction: row;
+    margin-top: 3%;
 } 
 .sec-sec-second-img
 {   
@@ -109,4 +110,8 @@
     display: flex;
     flex-direction: row;
     padding-top:50px;
+}
+.text-center
+{
+    text-align: center;
 }
