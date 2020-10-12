@@ -179,8 +179,20 @@
         width:50px
     }
 }
-@media only screen and (max-width: 779px) /*Mniejsze od 780*/
+@media only screen and (max-width: 699px) /*Mniejsze od 700*/
 {   
+    .contact_icon
+    {
+        width: 60px;
+    }
+    .contact_icon-text p
+    {
+        font-size: 0.8rem;
+    }
+    .contact_icon-text h2
+    {
+        font-size: 1.1rem;
+    }
 }
 @media only screen and (max-width: 649px) /*Mniejsze od 650*/
 {   
