@@ -5,36 +5,39 @@ function appStart()
     {
         if (window.matchMedia("(max-width: 1023px)").matches)
         {
-            create_two_gallery_columns();
+            create_gallery_columns(2);
         }
         else
         {
-            create_three_gallery_columns();
+            create_gallery_columns(3);
         }     
     }
     
 }
 
-function create_two_gallery_columns () //Przeksztalcanie trzech kolum w dwie w Galerii ze zdjeciami
+function create_gallery_columns (number) //Tworzenie wyznaczonej ilosci kolumn w Galerii ze zdjeciami
 {   
-    console.log("ctwogc start");
+    console.log("Function create gallery columns start.");
     var first_column = document.getElementById("gallery_first_column");
     var second_column = document.getElementById("gallery_second_column");
     var third_column = document.getElementById("gallery_third_column");
 
-    first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails."><img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails.">';
-    second_column.innerHTML = '<img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails.">';
-    third_column.innerHTML = "";
-
-}
-function create_three_gallery_columns () //Przeksztalcanie trzech kolum w dwie w Galerii ze zdjeciami
-{   
-    console.log("cthreegc start");
-    var first_column = document.getElementById("gallery_first_column");
-    var second_column = document.getElementById("gallery_second_column");
-    var third_column = document.getElementById("gallery_third_column");
-    
-    first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails.">';
-    second_column.innerHTML = '<img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails.">';
-    third_column.innerHTML = '<img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails.">';
+    if(number == 2)
+    {
+        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails."><img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails.">';
+        second_column.innerHTML = '<img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails.">';
+        third_column.innerHTML = "";
+        console.log("Function create gallery columns work. Number of columns: "+number);
+    }
+    else if (number == 3)
+    {
+        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails.">';
+        second_column.innerHTML = '<img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails.">';
+        third_column.innerHTML = '<img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails.">';
+        console.log("Function create gallery columns work. Number of columns: "+number);
+    }
+    else
+    {
+        console.log("Function gallery columns error. Wrong argument.");
+    }
 }
