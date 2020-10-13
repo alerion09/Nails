@@ -202,5 +202,24 @@
 }
 @media only screen and (max-width: 649px) /*Mniejsze od 650*/
 {   
+    nav ul
+    {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+    .logo
+    {
+        flex:100%;
+        text-align: center;
+    }
+    .push-flex
+    {
+        margin-left:0;
+    }
+}
+@media only screen and (max-width: 439px) /* Mniejsze od 440*/
+{
     
 }
