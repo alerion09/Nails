@@ -30,10 +30,7 @@
     {
         margin-top: 150px;
     }
-    .gallery_container-headline h1
-    {
-        font-size: 1.9rem;
-    }
+    
     .goc_containers
     {
         width:85%;
@@ -104,7 +101,7 @@
     }
     .gallery_container-headline h1
     {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .gallery_column
     {
@@ -202,6 +199,11 @@
 }
 @media only screen and (max-width: 649px) /*Mniejsze od 650*/
 {   
+    .goc_containers
+    {
+        width:95%;
+        margin-top: 60px;
+    }
     nav ul
     {
         flex-wrap: wrap;
@@ -218,6 +220,86 @@
     {
         margin-left:0;
     }
+    .index_top img
+    {
+        height: 300px;
+        object-fit: cover;
+    }
+    .index_top-text
+    {   
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 25%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .index_under-top-container
+    {
+        width: 95%;
+    }
+    .index_first-section
+    {
+        width: 100%;
+    }
+    .index_first-section > figure
+    {
+        width: 100%;
+    }
+    .index_first-section > figure >img
+    {
+        width: 300px;
+    }
+    .index_triple-img
+    {
+        flex-wrap: wrap;   
+    }
+    .index_triple-img > figure
+    {   
+        width: 280px;
+    }
+    .index_triple-img > figure > img
+    {   
+        width: 250px;
+    }
+    .contact_icons-row
+    {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contact_icons-column
+    {
+        width: 40%;
+        max-width: 40%;
+    }
+    .contact_map
+    {   
+        height:250px;
+    }
+    .offer_float-left
+    {
+        width: 400px;
+    }
+    .offer_float-right
+    {
+        width: 400px;
+    }
+    .offer_img
+    {
+        width: 350px;
+    }
+    .offer_first-section h1 
+    {
+        font-size: 1.6rem;
+    }
+    .gallery_container-headline h1
+    {
+        font-size: 1.2rem;
+    }
+    
+
 }
 @media only screen and (max-width: 439px) /* Mniejsze od 440*/
 {

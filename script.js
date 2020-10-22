@@ -1,6 +1,14 @@
 document.addEventListener("DOMContentLoaded", appStart)
 function appStart()
 {   
+    if (window.matchMedia("(max-width: 1023px)").matches)
+    {
+        create_gallery_columns(2);
+    }
+    else
+    {
+        create_gallery_columns(3);
+    } 
     window.onresize = function() // Wywolanie funkcji zmiany kolumn przy kazdorazowej zmianie rozmiaru okna
     {
         if (window.matchMedia("(max-width: 1023px)").matches)
