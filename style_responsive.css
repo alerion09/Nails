@@ -314,6 +314,14 @@
 }
 @media only screen and (max-width: 439px) /* Mniejsze od 440*/
 {   
+    nav li
+    {
+        width: 100%;
+        text-align: center;
+    }
+    nav a
+    {
+    }
     :-webkit-any(article,aside,nav,section,div) h1 
     {
         font-size: 1.4rem;
@@ -374,4 +382,22 @@
     {   
         width: 200px;
     }
+    #menu_icon_img
+    {
+        width:25px;
+        padding-top:15px;
+    }
+    #menu_icon
+    {
+       flex: 20%;
+       text-align: left;
+       padding-left: 20px;
+    }
+    .logo
+    {
+        flex:60%;
+        text-align: left;
+        padding-left: 10px;
+    }
+    
 }

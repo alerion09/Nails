@@ -43,6 +43,10 @@ section
     padding:10px;
     font-size: 1.2rem;
 }
+.hide_menu
+{
+    display: none;
+}
 nav a:hover
 {
     background-color: rgb(169 15 41);
