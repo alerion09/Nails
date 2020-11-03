@@ -27,21 +27,6 @@ function create_gallery_columns (number) //Tworzenie wyznaczonej ilosci kolumn w
         console.log("Function gallery columns error. Wrong argument.");
     }
 }
-// function display_gallery() //Wyświetlanie galerii 
-// {
-//     if (window.matchMedia("(max-width: 439px)").matches)
-//     {
-//         create_gallery_columns(1);
-//     }
-//     else if (window.matchMedia("(min-width: 440px) and (max-width: 1023px)").matches)
-//     {
-//         create_gallery_columns(2);
-//     }
-//     else
-//     {
-//         create_gallery_columns(3);
-//     } 
-// }
 function toggle_menu() //Funkcja przelaczajaca klase menu na widoczna i niewidoczna
 {   
     var menu = document.getElementsByClassName("menu");
