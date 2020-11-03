@@ -201,7 +201,6 @@
 {   
     .goc_containers
     {
-        width:95%;
         margin-top: 60px;
     }
     nav ul
@@ -234,10 +233,6 @@
         left: 0;
         right: 0;
         bottom: 0;
-    }
-    .index_under-top-container
-    {
-        width: 95%;
     }
     .index_first-section
     {
@@ -319,14 +314,15 @@
         width: 100%;
         text-align: center;
     }
-    nav a
-    {
-    }
     :-webkit-any(article,aside,nav,section,div) h1 
     {
         font-size: 1.4rem;
     }
     :-webkit-any(article,aside,nav,section,div) h2 {
+        font-size: 1rem;
+    }
+    .gallery_container-headline h1
+    {
         font-size: 1rem;
     }
     .gallery_column
@@ -366,9 +362,17 @@
     {
         width: 250px;
     }
+    .index_top-text h1
+    {
+        font-size: 1.7rem;
+    }
+    .index_top-text h2
+    {
+        font-size: 1.4rem;
+    }
     .index_top img
     {
-        height: 200px;
+        height: 300px;
     }
     .index_first-section > figure >img
     {
