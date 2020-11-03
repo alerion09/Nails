@@ -1,3 +1,3 @@
 # Nails
 Website about nails art.
-![Home](Home.png)
+![Home](screenshots/Home.png)
