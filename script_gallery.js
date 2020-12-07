@@ -19,7 +19,7 @@ function appStart()
     
     window.onresize = function() //Funkcja wywolywana podczas zmiany rozmiaru okna
     {   
-        var icon_element = document.getElementById("menu_icon");
+        const icon_element = document.getElementById("menu_icon");
         if  (window.matchMedia("(max-width: 439px)").matches) 
         {                                                                              
             create_gallery_columns(1);
@@ -41,5 +41,4 @@ function appStart()
             create_gallery_columns(3);
         }
     }
-
 }

@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", appStart)
-var bool = true;
 function appStart()
 {   
     console.log("menu js start");
@@ -10,7 +9,7 @@ function appStart()
     
     window.onresize = function() //Funkcja wywolywana podczas zmiany rozmiaru okna
     {   
-        var icon_element = document.getElementById("menu_icon");
+        const icon_element = document.getElementById("menu_icon");
         if(icon_element == null & (window.matchMedia("(max-width: 439px)").matches))   //Gdy element ikony menu nie istnieje, a rozmiar jest mniejszy 
         {                                                                               //niz 439 wywolaj funkcje tworzaca iteraktywne menu 
             create_toggle_menu();
