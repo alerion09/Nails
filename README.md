@@ -1,4 +1,9 @@
-# Nails
+# Nails pure JavaScript.
 Website about nails art.
+<br />
 ![Home](screenshots/Home.png)
-![Mobile Offer](screenshots/'Mobile Offer.png')
+<br />
+<br />
+Mobile view.
+<br />
+![Mobile Offer](screenshots/MobileOffer.png)
