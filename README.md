@@ -6,8 +6,11 @@ Website about nails art.
 <br />
 Mobile view.
 <br />
+<br />
 ![Mobile Offer](screenshots/MobileOffer.png)
 <br />
 <br />
 Contact tab.
+<br />
+<br />
 ![Contact](screenshots/Contact.png)
