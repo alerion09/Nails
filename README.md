@@ -1,4 +1,4 @@
-# Nails pure JavaScript.
+# Responsive Website about Nails art.
 Website about nails art.
 <br />
 <br />
