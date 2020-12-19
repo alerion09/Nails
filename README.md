@@ -1,12 +1,15 @@
 # Responsive Website about Nails art.
-Website about nails art.
+Full responsive website about nails art.
+<br />
+Created using HTML and CSS.
 <br />
 <br />
+Home tab.
 ![Home](screenshots/Home.png)
 <br />
 <br />
 <br />
-Mobile view.
+Offer tab - mobile view.
 <br />
 <br />
 ![Mobile Offer](screenshots/MobileOffer.png)
