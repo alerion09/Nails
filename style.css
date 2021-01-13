@@ -47,12 +47,6 @@ section
 {
     display: none;
 }
-nav a:hover
-{   
-    text-decoration: none;
-    background-color: rgb(169 15 41);
-    color: white;
-}
 nav ul
 {   
     display: flex;
@@ -61,6 +55,7 @@ nav ul
 }
 nav a
 {   
+    color: rgb(43, 43, 43);
     outline: none;
     padding: 10px;
     margin: 0;
@@ -71,6 +66,12 @@ a:visited
 {
     text-decoration: none;
     color: rgb(43, 43, 43);
+}
+nav a:hover
+{   
+    text-decoration: none;
+    background-color: rgb(169 15 41);
+    color: white;
 }
 .push-flex
 {
