@@ -8,6 +8,20 @@ function appStart()
     if(queryMax439.matches)
     {
         create_toggle_menu();
+        create_gallery_columns(1);
+    }
+    else if (querymin440andmax1023.matches)
+    {
+        const icon_element = document.getElementById("menu_icon");
+        create_gallery_columns(2);
+        if (icon_element != null )
+        {
+            delete_toggle_menu();
+        }
+    }
+    else if (queryMin1024)
+    {
+        create_gallery_columns(3);
     }
     queryMax439.addEventListener("change", (e) => {
         if (e.matches)
