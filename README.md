@@ -1,7 +1,7 @@
 # Nails art.
 Full responsive website about nails art.
 <br />
-Created using HTML, CSS and JavaScript.
+Used technology: HTML5, CSS3, JavaScript.
 <br />
 <br />
 Home tab.
