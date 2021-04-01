@@ -128,12 +128,23 @@ footer ul
     object-fit: cover;
     filter: brightness(90%);
 }
+@keyframes text-move {
+    0% {
+        transform: translate(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity:1;
+    }
+}
 .index_top-text
 {   
     position: absolute;
     color:white;
     bottom: 20%;
     left: 10%;
+    animation: text-move 2s ease forwards;
 }
 .index_top-text h1
 {
