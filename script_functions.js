@@ -6,19 +6,19 @@ function create_gallery_columns (number) //Tworzenie wyznaczonej ilosci kolumn w
 
     if (number === 1)
     {
-        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails."><img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails."><img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails.">';
+        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails."><img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails."><img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails."><img src="./img/g16.jpg" alt="Nails.">';
         second_column.innerHTML = "";
         third_column.innerHTML = "";
     }
     else if(number === 2)
     {
-        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails."><img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails.">';
-        second_column.innerHTML = '<img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails.">';
+        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails."><img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails."><img src="./img/g16.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails.">';
+        second_column.innerHTML = '<img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails.">';
         third_column.innerHTML = "";
     }
     else if (number === 3)
     {
-        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails.">';
+        first_column.innerHTML = '<img src="./img/g1.jpg" alt="Nails."><img src="./img/g5.jpg" alt="Nails."><img src="./img/g6.jpg" alt="Nails."><img src="./img/g4.jpg" alt="Nails."><img src="./img/g16.jpg" alt="Nails.">';
         second_column.innerHTML = '<img src="./img/g3.jpg" alt="Nails."><img src="./img/g7.jpg" alt="Nails."><img src="./img/g8.jpg" alt="Nails."><img src="./img/g9.jpg" alt="Nails."><img src="./img/g10.jpg" alt="Nails."><img src="./img/g2.jpg" alt="Nails.">';
         third_column.innerHTML = '<img src="./img/g11.jpg" alt="Nails."><img src="./img/g12.jpg" alt="Nails."><img src="./img/g13.jpg" alt="Nails."><img src="./img/g14.jpg" alt="Nails."><img src="./img/g15.jpg" alt="Nails.">';
     }
